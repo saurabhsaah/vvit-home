@@ -1,0 +1,291 @@
+/* Enquiry */
+/* .enq{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 5;
+    background-color: #cc2727;
+} */
+/* Enquiry */
+/* Top Navbar-1 Start */
+.topnav{
+    height: 45px;
+    background-color: #07294d;
+}
+#fol{
+    font-size: 15px;
+}
+#icon{
+    font-size: 15px;
+    color: white;
+}
+#email a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+#email a:hover{
+    color: #ffc600;
+}
+
+.follow_us , a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+}
+.follow_us a:hover{
+    color: #ffc600;
+}
+
+#marq{
+    font-size: 15px;
+    width: 400px;
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    #fol{
+        display: none;
+    }
+}
+/* Top Navbar-1 End */
+
+/* Main Navbar Start */
+.top_nav{
+    background-color: white;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+.logo{
+    width: 180px;
+}
+#navitem li a{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #07294d;
+}
+.button{
+    font-size: 17px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    color:rgb(181, 0, 0);
+}
+/* Main Navbar End */
+
+/* Carousal_main Start */
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background: #07294d4a;
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    border-radius: 100px;
+    border: 10px solid black;
+}
+
+.car_btn{
+    background-color: #F3BD00;
+    color: black;
+    font-weight: 600;
+    padding: 7px 20px;
+    border-radius: 0%;
+}
+.car_btn:hover{
+    background-color: #092139;
+    color: white;
+}
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
+/* Carousal_main End */
+
+/* Carousal_mini Start */
+.after_caror{
+    z-index: 100;
+    position: relative;
+    margin-top: -90px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #07294d;
+}
+.after_caror h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+/* Carousal_mini Start */
+
+/* Marquee Start */
+.minicr{
+    margin: 20px;
+    height: 180px;
+    width: 200px;
+    background-color: #182b42;
+}
+.minicr i{
+    margin-left: 25%;
+    color: white;
+    font-size: 100px;
+}
+.minicr span{
+    margin-left: 12%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 15px;
+}
+.marq{
+    height: 40px;
+    color: white;
+    background-color: #cc2727;
+}
+.marq marquee{
+    margin-top: 8px;
+}
+/* Marquee End */
+
+/* About Us Start */
+#about_h4{
+    font-weight: 600;
+    color: #07294d;
+}
+#about_h4 p{
+    font-weight: 1000;
+    color: #ffc800;
+    margin-top: -10px;
+}
+#about_h2{
+    font-weight: 700;
+}
+#para{
+    color: #848484;
+    text-align: justify;
+}
+.img_trs{
+    border-radius: 5px;
+    height: 280px;
+    width: 260px;
+}
+.abt_btn{
+    padding: 12px 26px;
+    background: linear-gradient(to bottom right, #cd2b2b 60%, #d75959 100%);
+    color: white;
+}
+.abt_btn:hover{
+    color: white;
+    background: linear-gradient(to bottom right, #07294d 60%, #1c4979 100%);
+}
+/* About Us End */
+
+/* Student credit card */
+.std_cr{
+    background-color: #07294d;
+}
+.ad_ec{
+    background-color: #092e56;
+}
+#std-h2{
+    margin-top: 20px;
+    font-weight: 700;
+}
+#std-p{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-right: 35px;
+    text-align: justify;
+}
+.course ul li{
+    font-size: 25px;
+    list-style: circle;
+}
+.apply_btn{
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 26px;
+    background-color: #ffc600;
+    color: #092139;
+}
+.apply_btn:hover{
+    background-color: #092139;
+    color: white;
+    border: solid white 2px;
+}
+/* Student credit card */
+
+/* Image Gallery */
+
+/* Image Gallery */
+/* Footer */
+.footer{
+    background-color: #07294d;
+}
+/* Footer */
+.logow{
+    height: 50px;
+}
+.fa{
+    font-size: 20px;
+    background-color: #cc2727;
+    padding: 8px 10px;
+    border-radius: 100px;
+}
+.fa:hover{
+    color: #ffc800;
+}
+.footerp{
+    text-align: justify;
+}
+.fh4{
+    font-weight: 700;
+}
+.fl ul li{
+    font-size: 20px;
+    list-style: circle;
+}
+.fl ul li a:hover{
+    color: #ffc800;
+}
+/* Copyright */
+.cpr{
+    height: 60px;
+    background-color: #021d3a;
+}
+/* Copyright */
